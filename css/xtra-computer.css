@@ -1,0 +1,606 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    header{
+        width: 100%;
+        float: left;
+        background: url(../photo/bg.png);
+        padding-top: 35px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .main-header{
+      width: 100%;
+      float: left;
+    }
+    
+    .logo-part{
+        width: 50%;
+        float: left;
+    }
+    
+    .menu-part{
+        width: 50%;
+        float: left;
+        text-align: end;
+        padding-top: 12px;
+    }
+    
+    .menu-part p{
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 20px;
+        display: none;
+    }
+    }
+    
+    .menu-part li{
+        display: inline-block;
+        list-style: none;
+        padding-left: 50px;
+    }
+    
+    
+    .menu-part a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .menu-part a:hover{
+        color: green;
+        
+    }
+    
+    .hero-part{
+        width: 100%;
+        float: left;
+        padding-top: 100px;
+    }
+    
+    .hero-part h1{
+        text-align: center;
+        color: aliceblue;
+    }
+    .hero-part h2{
+        text-align: center;
+        color: aliceblue;
+        padding-top: 20px;
+    }
+    .hero-part p{
+        text-align: center;
+        color: aliceblue;
+        padding-top: 20px;
+        
+    
+    .btn-part{
+        text-align: center;
+        padding-top: 30px;
+        
+    }
+    
+    .btn1{
+        padding: 10px 25px;
+        border: 1px solid white;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-right: 20px;
+    
+    }
+    
+    .btn1:hover{
+        background-color: aliceblue;
+    }
+    
+    .btn2{
+        padding: 10px 24px;
+        border: 1px solid white;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    
+    .btn2:hover{
+        background-color: aliceblue;
+    }
+    
+    .hero-part img{
+        display: block;
+        margin: 50px auto;
+       
+        
+        
+    }
+    
+    /* 
+    service section */
+    
+    .section1{
+        width: 100%;
+        float: left;
+       background: url(../photo/bg2.png);
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin-top: -250px;
+      
+        
+        
+    }
+    
+    
+    .mobile-section{
+        width: 45%;
+        float: left;
+    }
+    
+    .mobile-section img{
+       padding-top: 210px;
+    }
+    
+    .days-free{
+        
+        text-align: center;
+        position: relative;
+        top: 250px;
+        box-shadow: 0px 0px 0.5px rgb(32, 25, 14);
+        padding: 25px;
+        
+        
+    }
+    .days-free:hover{
+        box-shadow: 5px 4px 15px rgb(32, 25, 14);
+        
+        
+    }
+            
+    
+    
+    
+    .morden-disign{
+        
+        text-align: center;
+        border: 1px solid rgba(53, 47, 47, 0.089);
+        position: relative;
+        top: 350px;
+        box-shadow: 5px 4px 15px rgb(32, 25, 14);
+        padding: 20px;
+    }
+    
+    .service1{
+        width: 25%;
+        float: left;
+    }
+    
+    .service1 .p1{
+        
+        font-size: 20px;
+        font-weight: 900;
+        padding: 10px 0px;
+    
+    }
+    
+    .service1 p{
+        line-height: 22px;
+    }
+    
+    
+    
+    .morden-disign .p1{
+        font-size: 20px;
+        font-weight: 900;
+        padding: 10px 0px;
+    }
+    
+    .service2{
+        width: 25%;
+        float: left;
+        padding-top: 380px;
+        
+    }
+    
+    .full-support{
+    text-align: center;
+    box-shadow: 5px 4px 15px rgb(32, 25, 14);
+    padding: 20px;
+    position: relative;
+    position: relative;
+        top: -59px;
+        right: -61px;
+    }
+    
+    
+    
+    
+    
+    .full-support .p1{
+        font-size: 20px;
+        font-weight: 900;
+        padding: 10px 0px;
+    }
+    
+    
+    
+    .user-friendly{
+    
+        text-align: center;
+        padding: 20px;
+       
+        position: relative;
+        top: 74px;
+        right: -63px;
+    }
+    
+    .user-friendly:hover{
+        box-shadow: 5px 4px 15px rgb(32, 25, 14);
+        padding: 20px;
+    }
+    
+    .user-friendly .p1{
+        font-size: 20px;
+        font-weight: 900;
+        padding: 10px 0px;
+    }
+    
+    
+    <!-- Stable And Ready section-->
+            
+    .section2{
+        width: 100%;
+        float: left;
+        
+    }
+    
+    .stable-ready{
+        width: 50%;
+        float: left;
+        margin-top: 350px;
+        text-align: end;
+        
+    }
+    
+    .stable-ready h1{
+        margin-bottom: 30px;
+    }
+    
+    .stable-ready p{
+        margin-bottom: 30px;
+    }
+    
+    .stable-ready button{
+        padding: 10px 20px;
+        background-color: #33d2fd;
+        border: 1px solid #33d2fd;
+        border-radius: 5px;
+    }
+    
+    .made-with-love{
+        width: 50%;
+        float: left;
+        margin-top: 340px;
+        padding-left: 100px;
+        
+    }
+    
+    .love{
+        display: flex;
+        padding-bottom: 25px;
+        column-gap: 10px;
+        border-bottom: 1px solid rgba(63, 55, 55, 0.123);
+        box-shadow: 1px 1px 8px black;
+        padding: 15px;
+    }
+    
+    .love:hover{
+        background-color: #33d2fd;
+    }
+    
+    .free-of-use{
+        display: block;
+        padding: 25px 15px 1px 5px;
+        column-gap: 10px;
+        border-bottom: 1px solid rgba(63, 55, 55, 0.123);
+        background-color: #33d2fd;
+        box-shadow: 1px 1px 4px black;
+        padding: 15px;
+        margin: 14px 0px;
+        width: 100%;
+        float: left;
+    }
+    
+    .free-of-use .img{
+        width: 10%;
+        float: left;
+    }
+    
+    .free-of-use .p1{
+        width: 90%;
+        float: left;
+    }
+    
+    .p1 .p2{
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .finally-support{
+        display: flex;
+        padding: 25px 0px;
+        column-gap: 10px;
+        border-bottom: 1px solid rgba(63, 55, 55, 0.123);
+        box-shadow: 1px 1px 8px black;
+        padding: 15px;
+        margin-top: 15px;
+    }
+    
+    .finally-support:hover{
+        background-color: #33d2fd;
+    }
+    
+    
+    .ui-ux{
+        display: flex;
+        padding: 25px 0px;
+        column-gap: 10px;
+        border-bottom: 1px solid rgba(63, 55, 55, 0.123);
+        box-shadow: 1px 1px 8px black;
+        padding: 15px;
+        margin-top: 15px;
+    }
+    
+    .ui-ux:hover{
+        background-color: #33d2fd;
+    }
+    
+    .section3{
+        width: 100%;
+        float: left;
+        padding: 10px 0px 50px 0px;
+    }
+    
+    .codig-img{
+        width: 40%;
+        float: left;
+    }
+    
+    .codig-img img{
+        margin-top: 150px;
+    }
+    
+    .everything{
+        width: 60%;
+        float: left;
+        padding-left: 204px;
+        padding-top: 185px;
+    }
+    
+    .everything h1{
+    
+    }
+    
+    .android {
+        display: flex;
+        padding-top: 15px;
+        column-gap: 10px;
+    
+    }
+    
+    .android img {
+        background-color: #33d2fd;
+        border-radius: 50%;
+        padding: 3px;
+    }
+    
+    .iphone{
+        display: flex;
+        padding: 10px 0px 20px 0px;
+        column-gap: 10px;
+    }
+    
+    .iphone img{
+        background-color: #33d2fd;
+        border-radius: 50%;
+        padding: 3px;
+    }
+    
+    
+    /* <!-- Now available section > */
+    
+    .section4{
+        width: 100%;
+        float: left;
+        background: url(../photo/bg.png);
+        padding: 100px 10px;
+        
+    
+    }
+    
+    
+    
+    .section4 .img{
+        width: 40%;
+        float: left;
+        text-align: end;
+    }
+    
+    .available{
+        width: 60%;
+        float: left;
+        padding: 5px 5px 5px 150px;
+    
+    }
+    
+    .available h1 {
+        margin-top: 171px;
+        padding-bottom: 10px;
+    }
+    
+    .available p{
+        padding: 30px 0px;
+    }
+    
+    .app-store{
+        margin-right: 20px;
+    }
+    
+    .get-app{
+        
+        text-align: center;
+        
+    }
+    
+    .get-app button{
+        padding: 10px 30px;
+        background-image: linear-gradient( 0deg, #fd6e71, #9e3d3f);
+       
+       border: none;
+       position: relative;
+       top: -18px;
+       
+    }
+    
+    .get-app button:hover{
+        background-image: linear-gradient( 0deg, #9e3d3f, #fd6e71);
+    }
+    
+    .section5{
+        width: 100%;
+        float: left;
+        padding: 70px 0px 50px 0px;
+    }
+    
+    .company{
+        width: 35%;
+        float: left;
+        text-align: center;
+    }
+    
+    .company li{
+        list-style: none;
+        padding-top: 10px;
+    }
+    
+    .company a{
+       color: black;
+       text-decoration: none;
+    }
+    
+    
+    
+    .Development{
+        width: 15%;
+        float: left;
+    }
+    
+    
+    
+    .Development li{
+        list-style: none;
+        padding-top: 10px;
+    }
+    
+    .Development a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .Community{
+        width: 15%;
+        float: left;
+        padding-left: 25px;
+        
+    }
+    
+    
+    .Community li{
+        list-style: none;
+        padding-top: 10px;
+    }
+    
+    .Community a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    
+    .info{
+        width: 35%;
+        float: left;
+        padding-left: 100px;
+    }
+    
+    .info li{
+        list-style: none;
+        padding-top: 10px;
+    } 
+    
+    .info a{
+        color: black;
+        text-decoration: none;
+    }
+        
+    
+    .Touch{
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding-top: 100px;
+    
+    }
+    
+    .Touch p{
+        padding: 15px 0px;
+    }
+    
+    .Touch button{
+        padding: 10px 20px;
+        background-color: #33d2fd;
+        border: 1px solid #33d2fd;
+        position: relative;
+        left: 365px;
+    }
+    
+    .Touch a{
+        
+    }
+    
+    /* footer section */
+    
+    footer{
+        width: 100%;
+        float: left;
+        background-color: #233148;
+        padding: 30px 10px;
+    }
+    
+    .copirite{
+        width: 50%;
+        float: left;
+        color: white;
+    }
+    
+    .icon{
+        width: 50%;
+        float: left;
+        text-align: end;
+        size: 10px;
+    
+    }
+    
+    .icon img{
+        margin-left: 30px;
+        height: 20px;
+    }
+    
+  }
